@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ardor3d-android"/>
+	<classpathentry kind="lib" path="G:/Eclipse/Workspace/Ardor3D/ardor3d-android/lib/google-collect-1.0.jar"/>
+	<classpathentry kind="lib" path="G:/Eclipse/Workspace/Ardor3D/ardor3d-android/lib/ardor3d-core.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

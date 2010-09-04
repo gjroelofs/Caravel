@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:src="@drawable/caravelloading" 
+    	/>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_y="225dip"
+	    >
+	    <ProgressBar android:id="@+id/loadprogress"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+				  android:indeterminateOnly="false" 
+				  android:progressDrawable="@android:drawable/progress_horizontal" 
+				  android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal" 
+				  android:minHeight="10dip" 
+				  android:maxHeight="10dip"
+				  android:minWidth="200dip"
+				  android:layout_centerHorizontal="true"/>
+	    <TextView android:id="@+id/loadtext"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+				  android:minHeight="20dip" 
+				  android:layout_marginTop="10dip"
+	              android:text="Caravel Loading..."  		
+	              android:layout_below="@id/loadprogress"
+	              android:textColor="#000"
+				  android:layout_centerHorizontal="true"
+				  android:textSize="30px"
+				  android:textStyle="bold"  />
+	    	
+	</RelativeLayout>
+	
+</AbsoluteLayout>

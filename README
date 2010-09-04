@@ -1,0 +1,16 @@
+This GIT serves as a branch of Caravel, containing all code concerning the creation, setup and use of Ardor3D on Android.
+
+In it's current state, it's far from finished, let alone readable.
+However, things it contains at the moment are:
+
+- Texture Atlas
+- Model/Texture loading mechanism, with possibility for themes
+- Mesh combine
+- Low-poly water effect
+- Graph implementation
+- Orbit Camera
+- User Interface
+- Multi-touch input: pinch-to-zoom.
+- Loading screen / Splash screen
+
+I left 1 model in the program, so it still works
