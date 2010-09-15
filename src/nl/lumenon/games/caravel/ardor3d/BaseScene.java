@@ -356,7 +356,7 @@ public class BaseScene implements Scene{
 		public Graph createTestGraph(){
 			Graph<String, String, String> graph = new Graph("Test Board Build");
 			
-			String[] names = new String[]{"Grain","Wool","Desert","Wood","Stone", "Ore"};
+			String[] names = new String[]{"Wool"};
 			
 			int size = 2;
 			//String[][] board = new String[][]{{"Grain","Wool","Desert","Grain","Wool","Desert"},{"Desert","Wood","Desert"},{"Desert","Desert","Desert"}};
